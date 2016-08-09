@@ -1,0 +1,92 @@
+.container {
+  margin: 0 auto;
+  width: 750px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+}
+
+/* Código Lau de 2 layouts :D */
+
+#bloque {
+  margin: 100px 0px;
+}
+
+
+#right {
+  display: block;
+  width: 375px; /* width del .container a la mitad :v */
+  float: right;
+
+}
+
+#left {
+  width: 375px;
+  float: left;
+}
+
+/* Código Lau de 3 layouts :3 */
+/* Código para hacer las 3 columnas */
+
+.left-price {
+  width: 30%; /* 30% de toda la pantalla */
+  float: left;
+}
+
+#bloque2 {
+  float: left;
+  width: 70%; /* 100% - 30% = 70% para los otros dos contenedores */
+}
+
+#bloque2 .center-price {
+  width: 50%; /* Como estan dentro del bloque2, a el espacio del bloque2 lo divide a la mitad */
+  float: left;
+}
+
+#bloque2 .right-price {
+  
+  width: 50%;/* Como estan dentro del bloque2, a el espacio del bloque2 lo divide a la mitad */
+  float: left;
+}
+/* Código para centrar los titulos y la apariencia */
+
+#pricing div h5{
+  text-align: center;
+}
+
+#pricing div ul li {
+  list-style-type: square; /* De ésta forma evitamos ponerle el estilo a cada uno de los elementos */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
